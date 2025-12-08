@@ -1,4 +1,4 @@
-package pokladna.shared;
+package pokladna.shared.entites;
 
 import java.sql.Date;
 

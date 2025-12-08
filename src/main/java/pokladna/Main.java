@@ -1,5 +1,7 @@
 package pokladna;
 
+import pokladna.view.GUI;
+
 public class Main {
     public static void main(String[] args) {
         System.setProperty("apple.laf.useScreenMenuBar", "true");
@@ -16,6 +18,9 @@ public class Main {
         // load collections from files
         // users.load();
         // persons.load();
+
+        GUI gui = new pokladna.view.GUI();
+        gui.setVisible(true);
 
     }
 }

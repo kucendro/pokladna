@@ -1,7 +1,20 @@
 package pokladna.shared;
 
-public interface cashierInterface {
-    Cashier getCachier(String id);
+import java.util.List;
 
-    void addCachier(Cashier cachier);
+import pokladna.shared.entites.Cashier;
+
+public interface cashierInterface {
+
+    Cashier get(String id);
+
+    List<Cashier> getAll();
+
+    boolean add(Cashier cashier);
+
+    boolean remove(String id);
+
+    boolean update(String id, Cashier cashier);
+
+    boolean authenticate(String password);
 }
