@@ -1,8 +1,8 @@
-package pokladna.shared;
+package pokladna.shared.interfaces;
 
 import java.util.List;
 
-import pokladna.shared.entites.Cashier;
+import pokladna.shared.templates.Cashier;
 
 public interface cashierInterface {
 

@@ -1,4 +1,4 @@
-package pokladna.view;
+package pokladna.views;
 
 import java.awt.Dimension;
 import java.awt.Font;

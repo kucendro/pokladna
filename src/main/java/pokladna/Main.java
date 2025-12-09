@@ -1,6 +1,6 @@
 package pokladna;
 
-import pokladna.view.GUI;
+import pokladna.views.GUI;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class Main {
         // users.load();
         // persons.load();
 
-        GUI gui = new pokladna.view.GUI();
+        GUI gui = new pokladna.views.GUI();
         gui.setVisible(true);
 
     }

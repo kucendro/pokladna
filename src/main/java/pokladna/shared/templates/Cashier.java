@@ -1,4 +1,4 @@
-package pokladna.shared.entites;
+package pokladna.shared.templates;
 
 //@formatter:off
 /**
