@@ -1,16 +1,19 @@
 package pokladna.shared.templates;
 
+import java.io.Serializable;
+
 //@formatter:off
 /**
  *? Receipt table structure:
  *? ┌─────────────────┐
- *? │ id (UUID)       │
+ *? │ id (String)     │
  *? │ content         │
  *? └─────────────────┘
  */
 //@formatter:on
 
-public class Reciept {
+public class Reciept implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String id;
     private String content;
 

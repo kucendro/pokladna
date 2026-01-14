@@ -1,5 +1,7 @@
 package pokladna.shared.templates;
 
+import java.io.Serializable;
+
 //@formatter:off
 /**
  *? Product table structure:
@@ -12,7 +14,8 @@ package pokladna.shared.templates;
  */
 //@formatter:on
 
-public class Product {
+public class Product implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String id;
     private String ean;
     private String name;
